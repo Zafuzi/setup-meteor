@@ -12,9 +12,9 @@ Basic:
 ```yaml
 steps:
 - uses: actions/checkout@v1
-- uses: meteorengineer/setup-meteor@v1
+- uses: zafuzi/setup-meteor@v1
   with:
-    meteor-release: '1.8.1'
+    meteor-release: '2.7.3'
 - run: meteor npm install
 - run: meteor npm test
 ```
